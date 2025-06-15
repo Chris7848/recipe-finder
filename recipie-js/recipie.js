@@ -82,7 +82,7 @@ function getRecipiedId(){
          if (event.target.closest('.full-recipie')){
             const card = event.target.closest('.recipie-cont');
             const recipieId = card.getAttribute('data-id');
-            window.location.href = `full-recipie.html?id=${recipieId}`;
+            window.location.href = `../recipie-html/full-recipie.html?id=${recipieId}`;
          }
       });
       isListenerAttached = true;
