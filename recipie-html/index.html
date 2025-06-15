@@ -1,0 +1,159 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reciepie</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="https://kit.fontawesome.com/ded4f78075.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section>
+        <div class="header">
+            <div class="logo">
+                CHRIS<span class="logo-1">TASTES</span>
+            </div>
+            <div class="ribbon">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="blogs.html">BLOGS</a></li>
+                    <li><a href="recipes.html">RECIPES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    
+                </ul>
+            </div>
+            <div class="right-side">
+                <input type="text" class="searchInput" placeholder="Search...">
+                <button class="searchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button class="home-icon"><i class="fa-solid fa-circle-user"></i></button>
+            </div>
+        </div>
+    </section>
+    
+    <div class="search-cont">
+        <section class="bg">
+        <div class="bg-image">
+            <div class="bg-text">
+                <p>Explore good reciepies <br> with CHRIS<span class="logo-1">TASTES</span> </p>
+            </div>
+        </div>
+    </section>
+    <section class="what-to-cook">
+        <div class="what">
+            What to <span class="logo-1">cook?</span>
+        </div>
+        <div class="options-to-cook">
+            <div class="options">
+                <button class="options-btn" onclick="loadFoods()">
+                    <p class="options-num">
+                    All types
+                    </p>
+                </button>
+
+                <button class="options-btn" onclick="loadSpecificFoods('appetizers')">
+                    <p class="options-num">
+                    Appetizers
+                    </p>
+                </button>
+
+                <button class="options-btn" onclick="loadSpecificFoods('main courses')">
+                    <p class="options-num">
+                    Main courses
+                    </p>
+                </button>
+
+                <button class="options-btn" onclick="loadSpecificFoods('healthy')">
+                    <p class="options-num">
+                    Healthy eats
+                    </p>
+                </button>
+
+                <button class="options-btn">
+                    <p class="options-num">
+                    Quick and easy Supper
+                    </p>
+                </button>
+
+                <button class="options-btn" onclick="loadSpecificFoods('Dessorts, sweets')">
+                    <p class="options-num">
+                    Dessorts and sweets
+                    </p>
+                </button>
+
+                <button class="options-btn" onclick="loadSpecificFoods('Salads, sides')">
+                    <p class="options-num">
+                    Salads and sides
+                    </p>
+                </button>
+
+                <button>
+                    <p class="options-num">
+                    Appetizers
+                    </p>
+                </button>
+
+                <button class="options-btn" onclick="loadSpecificFoods('vegetarian,vegan')">
+                    <p class="options-num">
+                    Vegetarian delights
+                    </p> 
+                </button>
+
+                <button class="options-btn">
+                    <p class="options-num">
+                    International flavours
+                    </p>
+                </button>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="recipies">
+        <div class="recipie-container">
+           <div class="recipie-cont">
+             <p class="recipie-name">
+                meat ball
+             </p>
+             <div class="recipie-image">
+                <button>120+</button>
+                <img src="../food-1.jpeg" alt="" srcset="">
+             </div>
+             <div class="full-recipie">
+                <button>See complete recipie</button>
+             </div>
+           </div>
+
+           <div class="recipie-cont">
+             <p class="recipie-name">
+                meat ball
+             </p>
+             <div class="recipie-image">
+                <button>120+</button>
+                <img src="../food-3.jpeg" alt="" srcset="">
+             </div>
+             <div class="full-recipie">
+                <button>See complete recipie</button>
+             </div>
+           </div>
+
+           <div class="recipie-cont">
+             <p class="recipie-name">
+                meat ball
+             </p>
+             <div class="recipie-image">
+                <button>120+</button>
+                <img src="../food-2.jpeg" alt="" srcset="">
+             </div>
+             <div class="full-recipie">
+                <button>See complete recipie</button>
+             </div>
+           </div>
+        </div>
+    </section>
+
+    </div>
+ <script src="../recipie-js/recipie.js"></script>
+    
+    
+</body>
+</html>

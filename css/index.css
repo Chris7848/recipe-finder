@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+.header{
+    padding: 20px 20px;
+    display: flex;
+    gap: 18%;
+}
+.ribbon ul{
+    display: flex;
+    gap: 35px;
+}
+.ribbon li{
+    cursor: pointer;
+    list-style: none;
+}
+.logo{
+    font-weight: 700;
+    font-size: 20px;
+}
+.logo-1{
+    color: orangered;
+}
+.right-side{
+    display: flex;
+    gap: 5px;
+}
+input{
+    padding: 10px 15px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: rgba(161, 161, 161, 0.116);
+    border: none;
+}
+.searchBtn{
+    border-radius: 20px;
+    background-color: rgba(161, 161, 161, 0.116);
+    border: none;
+    padding: 10px 10px;
+
+}
+
+.home-icon{
+    border-radius: 20px;
+    background-color:black;
+    padding: 10px 10px;
+    border: none;
+    color: white;
+
+}
+
+.ribbon ul li{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.bg{
+    width: 95vw;
+    margin: 0px 20px;
+    justify-self: center;
+}
+.bg-image{
+    border-radius: 20px;
+    width: 100%;
+    height: 40vh;
+    background: url('../bg-2.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.bg-text{
+    height: 100%;
+    width: 100%;
+    align-content: center;
+    color: white;
+    margin-left: 30px;
+}
+.bg-text p{
+    font-size: 34px;
+    
+}
+
+.what-to-cook{
+    width: 90vw;
+    justify-self: center;
+    padding: 20px 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.what{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+
+}
+.options-to-cook{
+    width: 80vw;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.options{
+    max-width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    position:absolute;
+    
+}
+.options button{
+    font-size: 18px;
+    padding: 7px 22px;
+    border-radius: 20px;
+    border: none;
+        background-color: rgba(161, 161, 161, 0.116);
+
+}
+.options button:hover{
+    background-color: black;
+    color: white;
+}
+.recipies{
+    margin-top: 100px;
+    padding: 20px 20px;
+    
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.search-container{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 320px 320px 320px;
+    gap: 35px;
+    justify-content: center;
+    align-content: center;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.2));
+
+
+}
+
+.recipie-container{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 320px 320px 320px;
+    gap: 35px;
+    justify-content: center;
+    align-content: center;
+     box-shadow:  4px 4px 8px rgba(0, 0, 0, 0.1);
+
+
+}
+.recipie-cont{
+    padding:  20px 0px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.075);
+    box-shadow:  4px 4px 8px rgba(0, 0, 0, 0.1);
+
+
+}
+.recipie-name{
+    display: block;
+    white-space: nowrap;
+    line-height: 3rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 10px 10px;
+    font-size: 24px;
+    max-height: 3rem;
+    font-weight: 600;
+    margin-left: 10px;
+    left: 0;
+    max-width: 250px;
+    z-index: 1;
+}
+
+
+
+.recipie-image{
+    position: relative;
+    height: 300px;
+    width: 90%;
+    justify-content: center;
+    align-content: center;
+    border-radius: 20px;
+    overflow: hidden;
+    z-index: 0;
+    border: 1px solid rgba(165, 42, 42, 0.274);
+        filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.2));
+
+}
+
+.recipie-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.recipie-image button{
+    position: absolute;
+    z-index: 1;
+    right: 10px;
+    top: 20px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+   
+}
+.full-recipie{
+    width: 90%;
+}
+.full-recipie button{
+    cursor: pointer;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    justify-self: center;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+
+}
